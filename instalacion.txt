@@ -1,3 +1,34 @@
+Guía de instalación de Rails
+http://railsapps.github.io/installing-rails.html
+
+Guía de instalación de Rails para Windows
+http://blog.teamtreehouse.com/installing-rails-5-windows
+
+Instalación de Ruby
+http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.5.exe
+
+Ruby Development Kit
+http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+
+Instalador de Node.js
+https://nodejs.org/dist/v4.4.7/node-v4.4.7-x86.msi
+
+Editor de texto Atom
+https://atom.io/
+
+Editor de texto Brackets
+http://brackets.io/
+
+Git en Windows
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+SQLite Browser
+http://sqlitebrowser.org/
+
+
+
+
+
 Faltan por instalar
 	DB.Browser.for.SQLite-3.9.1-win64
 	gem install rails --version 5.0.0
