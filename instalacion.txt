@@ -1,0 +1,27 @@
+Faltan por instalar
+	DB.Browser.for.SQLite-3.9.1-win64
+	gem install rails --version 5.0.0
+	node-v4.4.7-x86
+
+
+
+Unable to download data from https://rubygems.org/ - 
+SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (
+https://api.rubygems.org/specs.4.8.gz)
+
+
+
+gem install rails --version 5.0.0
+FALLA
+
+Ingresar a consola como Administrador
+gem update --system
+ruby setup.rb
+gem install rails --version 5.0.0
+
+Bajar RubyGems
+	https://rubygems.org/pages/download
+	https://rubygems.org/rubygems/rubygems-2.6.12.zip
+gem update --system
+ruby setup.rb
+

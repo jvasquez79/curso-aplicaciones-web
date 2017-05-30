@@ -1,0 +1,77 @@
+rails new hello_WWW
+	Crea proyecto llamado hello_WWW con toda su estructura
+
+rails server
+	Inicia el servidor Web en el puerto por defecto (3000)
+
+rails server -h
+	Muestra opciones adicionales para inicializar el servidor Web
+
+bundle check
+	Comprobar que las dependencias estén correctas
+
+rails generate scaffold pioneer first_name:string last_name:string
+	Crea un "andamio" modelo vista controlador para pioneer (también esquema)
+	"\" para comandos en múltiples líneas
+	Crea archivos y directorios en controllers y layouts en app
+
+rake db:migrate
+	Migra base de datos
+	Crea archivo bajo db
+	Crea tablas pluralizadas para los scaffolds (pioneer -> pioneers)
+
+localhost:3000/pioneers
+	Visualizar aplicación
+
+ruby -e 'puts "Hello World!"'
+
+Interactive Ruby Shell (IRB)
+	Aplicación de interpretación (consola)
+	Para abrir:
+		irb
+	Solamente tiene acceso al lenguaje Ruby, no al entorno Rails
+	Cargar irb con entorno Rails
+		rails console
+
+
+names = Pioneer.all
+	Obtiene todos los registros de la tabla pioneers y los guarda en variable names
+
+names[0] 
+	Despliega información de primer registro
+
+names[0].first_name
+	Despliega primer nombre de primer registro
+
+Pioneer.create(:first_name => "John", :last_name => "von Neumann")
+	Crea registro en la tabla pioneers
+
+names.length
+	Obtiene cantidad de registros en variable names
+
+Estructura
+	app
+		Donde residen los modelos, vitas y controladores
+	bin
+		Scripts de ayuda (bundle, rails, rake)
+	config
+		Configuración de aplicación
+		Rutas
+		Bases de datos
+	db
+		Almacena esquema de bases de datos y migración
+	Gemfile
+		Especifica gemas requeridas
+	lib
+	log
+		Registros de aplicación
+	public
+		Raíz de la aplicación
+	test
+		Se generan automáticamente dependiendo de motor de pruebas usado
+		Permite desarrollo ágil
+	tmp
+	vendor
+
+
+
