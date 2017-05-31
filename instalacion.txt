@@ -1,10 +1,10 @@
-Gu韆 de instalaci髇 de Rails
+Gu铆a de instalaci贸n de Rails
 http://railsapps.github.io/installing-rails.html
 
-Gu韆 de instalaci髇 de Rails para Windows
+Gu铆a de instalaci贸n de Rails para Windows
 http://blog.teamtreehouse.com/installing-rails-5-windows
 
-Instalaci髇 de Ruby
+Instalaci贸n de Ruby
 http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.5.exe
 
 Ruby Development Kit
@@ -26,13 +26,41 @@ SQLite Browser
 http://sqlitebrowser.org/
 
 
-
-
-
-Faltan por instalar
-	DB.Browser.for.SQLite-3.9.1-win64
-	gem install rails --version 5.0.0
-	node-v4.4.7-x86
+Pasos para instalar en Windows
+	1. Instalar Ruby
+		http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.5.exe
+		Durante la instalaci贸n, marcar la opci贸n "Add Ruby executables to your PATH"
+		Verificar con ruby -v
+	2. Ruby Development Kit
+		Bajar http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+		Extraer en C:\RubyDevKit
+	3. Desde consola de Ruby, navegar a carpeta de Ruby Development Kit
+		cd C:\RubyDevKit
+	4. Ejecutar los comandos:
+		ruby dk.rb init
+		ruby dk.rb install
+	5. Instalar gema de Rails
+		gem install rails --version 5.0.0
+		En caso de fallo:
+			5.1 Bajar ZIP de https://rubygems.org/pages/download
+			5.2 Extraer en C:\
+			5.3 Navegar a carpeta creada
+			5.4 Ejecutar los siguientes comandos:
+				ruby setup.rb
+				gem update --system
+			5.5 Ejecutar nuevamente:
+				gem install rails --version 5.0.0
+	6. Instalar Git
+		https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+		Preferiblemente instalar GitHub Desktop (Windows 64 bits y Mac OS)
+	7. Instalar SQLite
+		http://sqlitebrowser.org/
+	8. Instalar editor, por ejemplo:
+		Atom
+			https://atom.io/
+		Brackets
+			http://brackets.io/
+			
 
 
 
